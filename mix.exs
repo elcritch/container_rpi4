@@ -3,7 +3,7 @@ defmodule NervesSystemRpi4.MixProject do
 
   @github_organization "elcritch"
   @app :container_rpi4
-  @repo "nerves_system_rpi4"
+  @repo "container_rpi4"
   @source_url "https://github.com/#{@github_organization}/#{@repo}"
   @version Path.join(__DIR__, "VERSION")
            |> File.read!()
